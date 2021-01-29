@@ -197,7 +197,7 @@ class Intent(app_manager.RyuApp):
         conf = cfg.CONF
         conf.register_opts([
             cfg.StrOpt('empower_ip',
-                       default='127.0.0.1',
+                       default='runtime',
                        help=('The Empower Runtime controller ip')),
             cfg.IntOpt('empower_port',
                        default=4444,
